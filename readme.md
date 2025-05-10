@@ -42,3 +42,20 @@ npx ts-node src/server.ts
 npx tsc   // this command will create a dist folder for us
 
 node dist/server.js // this command now is equivalent to    ::::::      npx ts-node src/server.ts
+
+
+
+// Environment Variables
+
+npm i dotenv
+
+
+
+// npm scripts
+
+ "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+
+use command  : npm run dev , npm start
